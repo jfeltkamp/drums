@@ -1,0 +1,39 @@
+{
+    "name": "jfeltkamp/drums",
+    "type": "drupal-drush",
+    "description": "Drums is a drush extension to administrate Drupal multi-site installations.",
+    "license": "GPL-3.0-only",
+    "keywords": [
+        "drupal",
+        "drush",
+        "drums",
+        "cli"
+    ],
+    "authors": [
+        {
+            "name": "Joachim Feltkamp",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/jfeltkamp/drums",
+    "require": {
+        "php": ">= 7.4",
+        "consolidation/site-alias": "^3.1",
+        "drush/drush": "^10.0 || ^11.0",
+        "webflo/drupal-finder": "^1.2"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "drupal/coder": "^8.3",
+        "phpro/grumphp": "^1.13",
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpro/grumphp": true,
+        },
+        "sort-packages": true
+    }
+}
